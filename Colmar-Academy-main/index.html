@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Colmar Academy</title>
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <header>
+      <!-- navbar-desktop -->
+      <div class="container-lg p-0">
+        <div id="navbar-desktop">
+          <nav class="nav justify-content-between align-content-center">
+            <a class="navbar-brand ms-4" href="#">
+              <img src="resources/images/ic-logo.svg">
+              <span><strong>COLMAR</strong>ACADEMY</span>
+            </a>
+            <ul class="nav me-4">
+              <li><a href="#">On campus</a></li>
+              <li><a href="#">Online</a></li>
+              <li><a href="#">For companies</a></li>
+              <li><a href="#">Sign in</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- navbar-mobile -->
+      <div class="container-lg p-0">
+        <div id="navbar-mobile">
+          <nav class="nav justify-content-center align-items-center">
+            <a class="mx-auto" href="#"><img src="resources/images/ic-logo.svg" alt="logo"></a>
+            <a class="mx-auto" href="#"><img src="resources/images/ic-on-campus.svg" alt=""></a>
+            <a class="mx-auto" href="#"><img src="resources/images/ic-online.svg" alt=""></a>
+            <a class="mx-auto" href="#"><img src="resources/images/ic-login.svg" alt=""></a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!--Intro 1st section-->
+      <section>
+        <div class="text-bg-light container-lg bg-lgray">
+            <div class="row">
+              <div id="banner-img" class="col-md-7">
+                <img class="img-fluid" src="resources/images/banner.jpg">
+              </div>
+            
+              <div id="banner-text" class="col-md-5 d-flex flex-column justify-content-center">
+                <h2 class="tx-gray fs-1 font-weight-bold">Learn something new everyday</h2>
+                <p class="font-weight-bolder">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="d-grid">
+                  <button class="btn btn-secondary">Start here</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--2nd section-->
+      <section>
+        <div class="container-lg">
+          <div class="row">
+            <div id="info-main" class="col-7 d-none d-md-block">
+              <img class="img-fluid" src="resources/images/information-main.jpg">
+              <div class="col">
+                <h2 class="fw-bold fs-2">It doesn't hurt to keep practicing</h2>
+                <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus,
+                  nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam
+                  eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+              </div>
+            </div>
+
+            <!--2nd row-->
+            <div id="info-sub" class="col-5 border-start">
+                
+              <div class="d-flex align-items-center border-bottom info-card">
+                <div class="info-sub-img">
+                  <img class="img-fluid d-none d-md-block" src="resources/images/information-orientation.jpg">
+                  <!--mobile here-->
+                  <img class="d-md-none" src="resources/images/information-orientation-mobile.jpg">
+                </div>
+                <div class="info-sub-text">
+                  <h5>Orientation date</h5>
+                  <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                  <a class="text-decoration-none" href="">Read more</a>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center border-bottom info-card">
+                <div class="info-sub-img">
+                  <img class="img-fluid d-none d-md-block" src="resources/images/information-campus.jpg">
+                  <!--mobile here-->
+                  <img class="d-md-none" src="resources/images/information-campus-mobile.jpg">
+                </div>
+                <div class="info-sub-text">
+                  <h5>Our campus</h5>
+                  <p>Find which campus is close by you</p>
+                  <a class="text-decoration-none" href="">Read more</a>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center border-bottom info-card">
+                <div class="info-sub-img">
+                  <img class="img-fluid d-none d-md-block" src="resources/images/information-guest-lecture.jpg">
+                  <!--mobile here-->
+                  <img class="d-md-none" src="resources/images/information-guest-lecture-mobile.jpg">
+                </div>
+                <div class="info-sub-text">
+                  <h5>Our guest lecture</h5>
+                  <p>John a keynote with Oliver Sack about music in medical treatment</p>
+                  <a class="text-decoration-none" href="">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--courses tab-->
+      <section>
+        <div id="course" class="text-bg-light container-lg">
+          <div class="row">
+            <h2 class="text-center my-4">Start Learning</h2>
+          </div>
+
+          <div id="course-card-container">
+            <!--1st row-->
+            <div class="row d-none d-md-flex my-3">
+
+              <!--software engineering-->
+              <div class="course-card col-4">
+                <div class="card h-100">
+                  <img src="resources/images/course-software.jpg">
+                  <div class="card-body">
+                    <h5>Software engineering</h5>
+                    <p class="card-text tx-gray2">COURSES</p>
+                    <p class="card-text tx-gray2">Web Development, Mobile Development, IOT, APIs</p>
+                  </div>
+                </div>
+              </div>
+
+              <!--computer art-->
+              <div class="course-card col-4">
+                <div class="card h-100">
+                  <img src="resources/images/course-computer-art.jpg">
+                  <div class="card-body">
+                    <h5>Computer art</h5>
+                    <p class="card-text tx-gray2">COURSES</p>
+                    <p class="card-text tx-gray2">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                  </div>
+                </div>
+              </div>
+
+              <!--design-->
+              <div class="course-card col-4">
+                <div class="card h-100">
+                  <img src="resources/images/course-design.jpg">
+                  <div class="card-body">
+                    <h5>Design</h5>
+                    <p class="card-text tx-gray2">COURSES</p>
+                    <p class="card-text tx-gray2">User Experience Design, User Research, Visual Design</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--2nd row-->
+            <div class="row d-none d-md-flex my-3">
+
+              <!--data-->
+              <div class="course-card col-4">
+                <div class="card h-100">
+                  <img src="resources/images/course-data.jpg">
+                  <div class="card-body">
+                    <h5>Data</h5>
+                    <p class="card-text tx-gray2">COURSES</p>
+                    <p class="card-text tx-gray2">Data Science, Big Data, SQL, Data Visualiztion</p>
+                  </div>
+                </div>
+              </div>
+
+              <!--business-->
+              <div class="course-card col-4">
+                <div class="card h-100">
+                  <img src="resources/images/course-business.jpg">
+                  <div class="card-body">
+                    <h5>Business</h5>
+                    <p class="card-text tx-gray2">COURSES</p>
+                    <p class="card-text tx-gray2">Product Development, Business Development, Startup</p>
+                  </div>
+                </div>
+              </div>
+
+              <!--marketing-->
+              <div class="course-card col-4">
+                <div class="card h-100">
+                  <img src="resources/images/course-marketing.jpg">
+                  <div class="card-body">
+                    <h5>Marketing</h5>
+                    <p class="card-text tx-gray2">COURSES</p>
+                    <p class="card-text tx-gray2">Analytics, Content Marketing, Mobile Markering</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--mobile here-->
+            <div id="course-mobile" class="row d-md-none d-grid">
+
+              <!-- software engineer -->
+              <button type="button" class="btn btn-light text-start">
+                <h5>Software engineering</h5>
+              </button>
+
+              <!-- computer art -->
+              <button type="button" class="btn btn-light text-start">
+                <h5>Computer art</h5>
+              </button>
+
+              <!-- design -->
+              <button type="button" class="btn btn-light text-start">
+                <h5>Design</h5>
+              </button>
+
+              <!-- data -->
+              <button type="button" class="btn btn-light text-start">
+                <h5>Data</h5>
+              </button>
+
+              <!-- business -->
+              <button type="button" class="btn btn-light text-start">
+                <h5>Business</h5>
+              </button>
+
+              <!-- marketing -->
+              <button type="button" class="btn btn-light text-start">
+                <h5>Marketing</h5>
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--thesis-->
+      <section>
+        <div id="thesis" class="ccontainer-lg">
+          <div class="row">
+            <h2 class="text-center">Thesis exhibit</h2>
+          </div>
+
+          <!--thesis main-->
+          <div class="row">
+            <div id="thesis-main" class="col-7 d-none d-md-block">
+              <video controls>
+                <source class="" src="resources/videos/thesis.mp4" type="video/mp4">
+              </video>
+              <div class="">
+                <h4 class="fw-bold">Reimagine urban</h4>
+                <p class="">"Curabitur vitae libero in ipusm porttitor consequat. Aliquam et commodo lectus, nec
+                  consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget
+                  magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+              </div>
+            </div>
+
+            <!--2nd row-->
+            <div id="thesis-sub" class="col-5">
+              <!--thesis card-->
+              <div class="d-flex align-items-center thesis-card">
+                <div class="info-sub-img">
+                  <img class="img-fluid d-none d-md-block" src="resources/images/thesis-fisma.jpg">
+                </div>
+                <div class="info-sub-text">
+                  <h5>Fisma: Design and Prototype</h5>
+                  <p>Designer showcase of new prototype produce</p>
+                </div>
+              </div>
+
+              <!--thesis card-->
+              <div class="d-flex align-items-center thesis-card">
+                <div class="info-sub-img">
+                  <img class="img-fluid d-none d-md-block" src="resources/images/thesis-now-and-then.jpg">
+                </div>
+                <div class="info-sub-text">
+                  <h5>Now and then</h5>
+                  <p>Research study about New york</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- thesis mobile -->
+          <div id="thesis-mobile" class="row d-md-none">
+            <video controls>
+              <source src="resources/videos/thesis.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+  <!-- Footer -->
+  <footer class="mx-4 my-3">&copy; 2016 Colmar Academy. All rights reserved </footer>
+
+  </body>
+</html>
